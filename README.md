@@ -1,5 +1,11 @@
 # 🎯 tiny-utm-keeper
 
+[![npm version](https://img.shields.io/npm/v/tiny-utm-keeper.svg)](https://www.npmjs.com/package/tiny-utm-keeper)
+[![npm downloads](https://img.shields.io/npm/dm/tiny-utm-keeper.svg)](https://www.npmjs.com/package/tiny-utm-keeper)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Bundle Size](https://img.shields.io/bundlephobia/minzip/tiny-utm-keeper)](https://bundlephobia.com/package/tiny-utm-keeper)
+
 <div dir="rtl">
 
 ابزاری سبک، بدون وابستگی و TypeScript-first برای ردیابی و نگه‌داری پارامترهای UTM در جاوااسکریپت.
