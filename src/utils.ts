@@ -1,4 +1,4 @@
-import { UTMParams, UTM_PARAMS } from './types';
+import { UTMParams, UTM_PARAMS } from './types.js';
 
 /**
  * Extract UTM parameters from a URL string

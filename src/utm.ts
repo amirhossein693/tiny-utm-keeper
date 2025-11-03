@@ -3,20 +3,20 @@ import {
   UTMParams,
   AttributionMode,
   FetchOptions,
-} from './types';
+} from './types.js';
 import {
   getStoredUTMData,
   saveUTMData,
   clearUTMData,
   isBrowser,
-} from './storage';
+} from './storage.js';
 import {
   extractUTMsFromURL,
   extractUTMsFromCurrentURL,
   appendUTMsToURL,
   hasUTMParams,
   utmParamsToObject,
-} from './utils';
+} from './utils.js';
 
 /**
  * Default configuration

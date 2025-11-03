@@ -6,7 +6,7 @@
  */
 
 // Export main class
-export { UTMKeeper } from './utm';
+export { UTMKeeper } from './utm.js';
 
 // Export convenience functions
 export {
@@ -20,7 +20,7 @@ export {
   getUTMObject,
   createFetch,
   hasStoredUTMs,
-} from './utm';
+} from './utm.js';
 
 // Export types
 export type {
@@ -29,7 +29,7 @@ export type {
   AttributionMode,
   StoredUTMData,
   FetchOptions,
-} from './types';
+} from './types.js';
 
 // Export utilities
 export {
@@ -40,7 +40,7 @@ export {
   mergeUTMParams,
   utmParamsToQueryString,
   utmParamsToObject,
-} from './utils';
+} from './utils.js';
 
 // Export storage utilities (for advanced use cases)
 export {
@@ -48,8 +48,8 @@ export {
   getStoredUTMData,
   saveUTMData,
   clearUTMData,
-} from './storage';
+} from './storage.js';
 
 // Re-export constants
-export { UTM_PARAMS } from './types';
+export { UTM_PARAMS } from './types.js';
 

@@ -82,7 +82,7 @@
   </div>
 
   <script type="module">
-    // Import from the built files
+    // Import from npm CDN (unpkg)
     import { 
       init, 
       getUTMs, 
@@ -91,7 +91,7 @@
       appendToURL,
       hasStoredUTMs,
       getInstance
-    } from './dist/index.mjs';
+    } from 'https://unpkg.com/tiny-utm-keeper@1.0.1/dist/index.mjs';
 
     // Initialize
     const keeper = init({

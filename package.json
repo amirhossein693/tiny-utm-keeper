@@ -1,6 +1,6 @@
 {
   "name": "tiny-utm-keeper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Zero-dependency, TypeScript-first UTM parameter tracker for first-touch/last-touch attribution. SSR-friendly.",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

@@ -1,4 +1,4 @@
-import { StoredUTMData, UTMParams } from './types';
+import { StoredUTMData, UTMParams } from './types.js';
 
 /**
  * Check if we're in a browser environment
