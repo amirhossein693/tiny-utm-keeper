@@ -1,15 +1,15 @@
 {
   "name": "tiny-utm-keeper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Zero-dependency, TypeScript-first UTM parameter tracker for first-touch/last-touch attribution. SSR-friendly.",
-  "main": "dist/index.js",
-  "module": "dist/index.mjs",
-  "types": "dist/index.d.ts",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "types": "dist/types/index.d.ts",
   "exports": {
     ".": {
-      "import": "./dist/index.mjs",
-      "require": "./dist/index.js",
-      "types": "./dist/index.d.ts"
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/types/index.d.ts"
     }
   },
   "files": [
@@ -19,9 +19,9 @@
   ],
   "scripts": {
     "build": "npm run build:cjs && npm run build:esm && npm run build:types",
-    "build:cjs": "tsc --module commonjs --outDir dist --declaration false",
-    "build:esm": "tsc --module esnext --outDir dist-esm && mv dist-esm/index.js dist/index.mjs && rm -rf dist-esm",
-    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs --declaration false",
+    "build:esm": "tsc --module esnext --outDir dist/esm",
+    "build:types": "tsc --declaration --emitDeclarationOnly --outDir dist/types",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
