@@ -40,8 +40,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/tiny-utm-keeper.git"
+    "url": "https://github.com/amirhossein693/tiny-utm-keeper.git"
   },
+  "bugs": {
+    "url": "https://github.com/amirhossein693/tiny-utm-keeper/issues"
+  },
+  "homepage": "https://github.com/amirhossein693/tiny-utm-keeper#readme",
   "devDependencies": {
     "typescript": "^5.3.3"
   }

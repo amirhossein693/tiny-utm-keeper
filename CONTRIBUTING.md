@@ -6,7 +6,7 @@ Thank you for your interest in contributing to tiny-utm-keeper! 🎉
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/tiny-utm-keeper.git
+git clone https://github.com/amirhossein693/tiny-utm-keeper.git
 cd tiny-utm-keeper
 ```
 

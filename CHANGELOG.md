@@ -29,5 +29,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Automatic cleanup of expired UTM data
 - Support for all standard UTM parameters (source, medium, campaign, term, content)
 
-[1.0.0]: https://github.com/yourusername/tiny-utm-keeper/releases/tag/v1.0.0
+[1.0.0]: https://github.com/amirhossein693/tiny-utm-keeper/releases/tag/v1.0.0
 
