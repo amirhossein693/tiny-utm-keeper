@@ -109,13 +109,6 @@
     window.hasStoredUTMs = hasStoredUTMs;
     window.getInstance = getInstance;
 
-    // Display current URL
-    document.getElementById('current-url').textContent = window.location.href;
-
-    // Initial refresh
-    refreshUTMs();
-    updateLinks();
-
     // Functions for buttons
     window.refreshUTMs = function() {
       const utms = getUTMs();
@@ -176,6 +169,13 @@
       document.getElementById('current-mode').textContent = 'last-touch';
       alert('Mode changed to last-touch');
     };
+
+    // Display current URL
+    document.getElementById('current-url').textContent = window.location.href;
+
+    // Initial refresh
+    window.refreshUTMs();
+    window.updateLinks();
 
     console.log('tiny-utm-keeper demo loaded!');
     console.log('Try adding UTM parameters to the URL and see them captured.');
